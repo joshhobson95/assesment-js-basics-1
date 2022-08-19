@@ -6,6 +6,7 @@ const faveColors = ['red', 'green', 'black']
 //CODE HERE
 
 const colorCopy = faveColors.slice(0, 3)
+console.log(colorCopy)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -14,7 +15,7 @@ const colorCopy = faveColors.slice(0, 3)
 //CODE HERE
 
 colorCopy.push('blue')
-
+console.log(colorCopy)
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +28,7 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 
 let middleNums = numbers.splice(1, 3)
+console.log(middleNums)
 
 
 //////////////////PROBLEM 4////////////////////

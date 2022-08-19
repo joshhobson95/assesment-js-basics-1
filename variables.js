@@ -11,6 +11,7 @@ const myName = "Josh Hobson"
 //CODE HERE
 
 let faveNum = 3
+console.log(faveNum)
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
@@ -18,6 +19,7 @@ let faveNum = 3
 //CODE HERE
 
 let lovesCode = true
+console.log(lovesCode)
 
 //////////////////PROBLEM 4////////////////////
 /*
