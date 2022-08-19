@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = "Git is a version control system. Git allows people to track changes in their code projects. The most basic unit of a git is a repository which is a code project."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "GitHub is a repository hosting service that provides a website to store your git repositories."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+const gitInitDefinition = "git init is a command that intializes a local repository in the folder in which the command is run."
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -35,6 +41,8 @@
 
 //CODE HERE
 
+const gitCloneDefinition = "creates a copy or clone of an exisiting git repository."
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+
+const gitStatusDefinition = " tells you about a given repository. It displays the state of the working directory"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +64,10 @@
 
 //CODE HERE
 
+const gitAddDefinition = "adds files to be tracked in a repository telling git that you want to include these files in the next commit."
+
+const gitAddCode = "git add ."
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,7 +78,9 @@
 */
 
 //CODE HERE
+ const gitCommitDefinition = "creates a snapshot of the files one is tracking/the project's currently staged changes."
 
+ const gitCommitCode = "git commit -m 'inital commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +89,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = "git push is a save! git push will upload local repository content to your remote repository on GitHub, saving progress you have made it your code."
