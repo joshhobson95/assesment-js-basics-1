@@ -38,9 +38,10 @@ let middleNums = numbers.splice(1, 3)
   If the number is LESS than or EQUAL to 100, push 'small' as a string 
   to the answers array. 
 */
+// CODE HERE
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
-const answers = []
+let answers = []
 
 
 for(i = 0; i < bigOrSmallArray.length; i++){
@@ -48,5 +49,4 @@ for(i = 0; i < bigOrSmallArray.length; i++){
     answers.push('big')
   } else answers.push('small')
 }
-//console.log(answers)
-// CODE HERE
+console.log(answers)
